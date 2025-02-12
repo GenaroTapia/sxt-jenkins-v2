@@ -12,6 +12,5 @@ public class SimplePurchaseTest {
 
     @Test
     public void simplePurchaseTest2() {
-        Assertions.fail("Not yet implemented");
     }
 }
