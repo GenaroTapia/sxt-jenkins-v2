@@ -1,8 +1,10 @@
 package sale.component;
 
+import com.sicarx.testing.ComponentTest;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+@ComponentTest
 public class SaleComponentTest {
     @Test
     public void simpleSaleTest() {

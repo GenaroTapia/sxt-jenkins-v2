@@ -1,7 +1,9 @@
 package purchase.system;
 
+import com.sicarx.testing.SystemTest;
 import org.junit.jupiter.api.Test;
 
+@SystemTest
 public class PurchaseSystemTest {
     @Test
     public void simplePurchaseTest() {
