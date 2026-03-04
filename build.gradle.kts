@@ -1,6 +1,6 @@
 plugins {
     id("java")
-    id("sxt-plugin") version "1.0.1"
+    id("sxt-plugin") version "1.0.2-SNAPSHOT"
 }
 
 group = "com.sicarx"
@@ -11,7 +11,7 @@ repositories {
 }
 
 dependencies {
-    testImplementation("com.sicarx:sxt-plugin:1.0.1")
+    testImplementation("com.sicarx:sxt-plugin:1.0.2-SNAPSHOT")
     testImplementation(platform("org.junit:junit-bom:5.10.0"))
     testImplementation("org.junit.jupiter:junit-jupiter")
 }
